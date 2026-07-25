@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>All Links</h1>
+<a href="/">← Back</a>
+{% if urls %}
+<table>
+  <tr><th>Code</th><th>Long URL</th><th>Created</th><th>Clicks</th></tr>
+  {% for u in urls %}
+  <tr>
+    <td><a href="/{{ u['code'] }}">{{ u['code'] }}</a></td>
+    <td style="max-width:300px;overflow:hidden;text-overflow:ellipsis">{{ u['long_url'] }}</td>
+    <td>{{ u['created_at'] }}</td>
+    <td>{{ u['clicks'] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% else %}<p>No links yet.</p>{% endif %}
+{% endblock %}
