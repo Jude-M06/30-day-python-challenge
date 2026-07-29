@@ -1,0 +1,10 @@
+{
+  "holdings": {
+    "APPA": {
+      "shares": 23.0,
+      "avg_cost": 2.0,
+      "currency": "USD"
+    }
+  },
+  "alerts": {}
+}
