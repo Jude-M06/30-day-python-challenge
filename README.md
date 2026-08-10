@@ -2,7 +2,7 @@
 
 A self-directed Python project challenge completed over 30 days, progressing from CLI fundamentals to deployed web apps, async networking, and live APIs. Every project was written from scratch and is contained in a single file.
 
-**Built by Jude Morgan (Jude-M06**),  CS student at the University of Liverpool, cybersecurity focus.
+**Built by Jude Morgan (Jude-M06)**,  CS student at the University of Liverpool, cybersecurity focus.
 
 ---
 
